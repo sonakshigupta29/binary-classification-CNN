@@ -1,0 +1,11 @@
+venv/
+
+pycache/
+*.pyc
+
+.ipynb_checkpoints/
+
+*.pt
+*.pth
+
+.vscode/
