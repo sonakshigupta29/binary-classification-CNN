@@ -4,6 +4,7 @@ pycache/
 *.pyc
 
 .ipynb_checkpoints/
+.ipynb_checkpoints/binary_classif_cnn-checkpoint.ipynb
 
 *.pt
 *.pth
