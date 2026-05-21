@@ -18,5 +18,10 @@ I approached this by preprocessing images data, making it fit to feed to our CNN
 These improvements helped the model learn image patterns more effectively and achieve stable training and validation performance.
 
 # Results
-Overall my model was learning images patterns effectively and scored accuracy of -----.
-image
+The CNN model was able to learn meaningful image patterns effectively and achieved an accuracy of 81.98% on the validation/test dataset.
+The training and validation loss curves show a consistent decrease over epochs, indicating stable learning and good generalization performance.
+
+The close alignment between training loss and validation loss suggests that the model was able to reduce overfitting successfully with the help of dropout layers and proper preprocessing techniques. Additionally, debugging corrupted images and fixing logical issues in the training pipeline improved the overall model performance and training stability.
+
+<p align="center"> <img src="https://github.com/user-attachments/assets/ea99c375-62a7-4e5e-9be5-e854e677f7dc" alt="Training and Validation Loss Graph" width="700"/> </p> <p align="center"> <em>Training vs Validation Loss across epochs for the CNN binary image classification model.</em> </p>
+
